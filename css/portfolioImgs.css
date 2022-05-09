@@ -1,0 +1,26 @@
+.portafolio-test img {
+  line-height: 70px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.images img {
+  margin: 0;
+  outline: .4rem solid #6A6262;
+  padding: 0;
+  max-inline-size: 27.5rem;
+  block-size: 27.5rem;
+  line-height: 70px;
+}
+
+
+.avion img:nth-child(1) {
+  width: 600px;
+}
+
+
+ @media screen and (min-width: 1350px) {
+   .images img{
+     inline-size: 100%;
+   }
+ }

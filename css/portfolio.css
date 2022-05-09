@@ -1,0 +1,38 @@
+@import './portfolioImgs.css';
+@import './portfolioInside.css';
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+  .responsive {
+    display: flex;
+    opacity: 100%;
+    width: 70px;
+    padding-block-start: 100px;
+    padding-inline-start: 130px;
+    align-items: center;
+  }
+
+  .wrapper-main {
+    display: none;
+  }
+
+  .portafolio {
+    display: none;
+  }
+
+  .footer-bottom {
+    display: none;
+  }
+
+  .firma {
+    display: none;
+  }
+
+  .bottom {
+    display: none;
+  }
+}

@@ -1,0 +1,43 @@
+.portafolio {
+
+  --minInlineSizeContainer: 20rem;
+  --maxInlineSizeContainer: 100%;
+  --minBlockSize: 13rem;
+  --maxBlockSize: auto;
+    display: grid;
+    grid-template-columns:repeat(1, minmax(var(--minInlineSizeContainer), var(--maxInlineSizeContainer)) 3rem);
+    grid-template-rows: repeat(1, minmax(var(--minBlockSize), var(--maxBlockSize)));
+    grid-template-areas: "images texto";
+    margin-block-start: 4rem;
+}
+
+
+
+.portafolio p {
+  white-space: pre-line;
+  font-weight: 100;
+  text-align: start;
+}
+
+
+
+.portafolio-test img {
+  line-height: 70px;
+  user-select: none;
+  pointer-events: none;
+}
+
+
+.texto {
+  height: 2px;
+  min-inline-size: 200px;
+  max-inline-size: auto;
+  min-block-size: 300px;
+  max-block-size: auto ;
+  line-height: .9rem;
+  white-space:none;
+  overflow: visible;
+  margin: auto;
+}
+
+
